@@ -5,30 +5,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 :root {
-  --font-family-base: "Roboto", sans-serif;
+  /* --font-family-base: "Roboto", sans-serif; */
+  --primary-dark: #06fbff;
+  --primary-light: #9fe6ec;
 }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
 
-body {
-  background-color: black;
-  color: white;
-  font-family: var(--font-family-base);
-}
+  body {
+    @apply font-[Poppins];
+  }
 
-a {
-  color: white;
-  text-decoration: none;
-}
+  li {
+    @apply p-4 text-sm;
+  }
 
-a:visited {
-  color: white;
-}
+  button {
+    @apply px-4 py-2 border bg-gradiant-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white;
+  }
 
-a:active {
-  color: cyan;
+  h2 {
+    @apply text-xl font-bold;
+  }
 }

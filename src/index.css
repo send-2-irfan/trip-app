@@ -6,8 +6,8 @@
 
 :root {
   /* --font-family-base: "Roboto", sans-serif; */
-  --primary-dark: #06fbff;
-  --primary-light: #9fe6ec;
+  --primary-dark: #008285;
+  --primary-light: #05c0d1;
 }
 
 @layer base {

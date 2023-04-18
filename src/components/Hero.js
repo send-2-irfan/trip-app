@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="w-full h-[90vh]">
       <img
-        src="https://images.unsplash.com/photo-1676638392418-80aad7c87b96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+        src="https://images.unsplash.com/photo-1500531279542-fc8490c8ea4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
         alt="/"
         className="w-full h-full object-cover"
       />

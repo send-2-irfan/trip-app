@@ -6,6 +6,7 @@ import Activites from "./components/Activites";
 import Booking from "./components/Booking";
 import Galary from "./components/Galary";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Activites />
       <Booking />
       <Galary />
+      <Contact />
       <Footer />
     </div>
   );

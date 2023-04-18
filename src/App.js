@@ -3,6 +3,7 @@ import TopBar from "./components/TopBar";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Activites from "./components/Activites";
+import Booking from "./components/Booking";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <Hero />
       <Activites />
+      <Booking />
     </div>
   );
 }

@@ -13,16 +13,20 @@ function Contact() {
         />
         <form>
           <div className="grid grid-col-2">
+            <input type="text" className="border m-2 p-2" placeholder="First" />
+            <input type="text" className="border m-2 p-2" placeholder="Last" />
             <input
-              type="text"
+              type="Email"
               className="border m-2 p-2"
-              placeholder="First"
-            ></input>
-            <input
-              type="text"
-              className="border m-2 p-2"
-              placeholder="Last"
-            ></input>
+              placeholder="Email"
+            />
+            <input type="tel" className="border m-2 p-2" placeholder="Phone" />
+            <textarea
+              cols="30"
+              rows="10"
+              className="border col-span-2 p-2 m-2 "
+            ></textarea>
+            <button className="col-span-2 m-2">Submit</button>
           </div>
         </form>
       </div>

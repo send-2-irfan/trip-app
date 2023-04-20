@@ -36,6 +36,12 @@ function Galary() {
             src="https://images.unsplash.com/photo-1593351415075-3bac9f45c877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
           />
         </div>
+        <div>
+          <img
+            className="w-full h-full object-cover"
+            src="https://plus.unsplash.com/premium_photo-1675802755792-a7cfd346b5be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+          />
+        </div>
       </div>
     </div>
   );

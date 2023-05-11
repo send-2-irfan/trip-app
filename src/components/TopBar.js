@@ -22,7 +22,7 @@ function TopBar() {
         </div>
         <div className="hidden md:flex items-center px-6">
           <AiFillPhone className="mr-2 text-[var(--primary-dark)]" />
-          <h1 className="text-sm text-gray-700">+254 705-444-1234</h1>
+          <h1 className="text-sm text-gray-700">+92-3168857760</h1>
         </div>
         <button>Get a free Quote</button>
       </div>
